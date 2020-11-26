@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memeing</string>
+    <string name="share">SHARE</string>
+    <string name="next">NEXT</string>
+    <string name="meme_image">Meme Image</string>
+    <string name="choose_language_for_memes">Choose language for memes!!</string>
+    <string name="english">ENGLISH</string>
+    <string name="hindi">HINDI</string>
+</resources>
