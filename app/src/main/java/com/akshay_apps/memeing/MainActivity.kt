@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         // Request a string response from the provided URL.
         val jsonObjectRequest = JsonObjectRequest(
                 Request.Method.GET, url, null,
-                Response.Listener{ response ->
+                { response ->
                     englishMeme = response.getString("url")
                     Glide.with(this).load(englishMeme).listener(object: RequestListener<Drawable> {
 
